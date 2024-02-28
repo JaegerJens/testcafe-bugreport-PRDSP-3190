@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testcafe bug report: selector scrolling</title>
+    <style>
+        .shoppinglist {
+            border: solid 1px green;
+            max-height: 8rem;
+            overflow: scroll;
+        }
+        .add {
+            display: block;
+            margin: 1rem;
+        }
+        .submit {
+            margin: 3rem;
+            padding: 1rem;
+            background-color: yellow;
+        }
+        footer {
+            position: absolute;
+            bottom: 0;
+            z-index: 30;
+        }
+    </style>
+</head>
+<body>
+    <section class="shoppinglist">
+        <button class="add" type="button" id="1">+</button>
+        <button class="add" type="button" id="2">+</button>
+        <button class="add" type="button" id="3">+</button>
+        <button class="add" type="button" id="4">+</button>
+        <button class="add" type="button" id="5">+</button>
+        <button class="add" type="button" id="6">+</button>
+        <button class="add" type="button" id="7">+</button>
+        <button class="add" type="button" id="8">+</button>
+        <button class="add" type="button" id="9">+</button>
+        <button class="add" type="button" id="10">+</button>
+        <button class="add" type="button" id="11">+</button>
+        <button class="add" type="button" id="12">+</button>
+        <button class="add" type="button" id="13">+</button>
+        <button class="add" type="button" id="14">+</button>
+        <button class="add" type="button" id="15">+</button>
+        <button class="add" type="button" id="16">+</button>
+        <button class="add" type="button" id="17">+</button>
+        <button class="add" type="button" id="18">+</button>
+        <button class="add" type="button" id="19">+</button>
+        <button class="add" type="button" id="20">+</button>
+        <button class="add" type="button" id="21">+</button>
+        <button class="add" type="button" id="22">+</button>
+        <button class="add" type="button" id="23">+</button>
+        <button class="add" type="button" id="24">+</button>
+        <button class="add" type="button" id="25">+</button>
+        <button class="add" type="button" id="26">+</button>
+        <button class="add" type="button" id="27">+</button>
+        <button class="add" type="button" id="28">+</button>
+        <button class="add" type="button" id="29">+</button>
+        <button class="add" type="button" id="30">+</button>
+    </section>
+    <footer>
+        <button class="submit" type="submit">Confirm</button>
+    </footer>
+</body>
+</html>

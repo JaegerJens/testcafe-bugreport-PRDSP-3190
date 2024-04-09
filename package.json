@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "testcafe chrome tests/click-button.test.js"
+    "test": "testcafe chrome tests/click-button.test.js",
+    "original": "testcafe chrome tests/original-issue.js"
   },
   "author": "Jens Jäger",
   "license": "MIT",
